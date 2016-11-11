@@ -92,15 +92,20 @@ a:link{
 }
 
 #sobre{
-    margin: 20;
-    background-color: #e1f5f7;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #255D7F;
     padding: 0px 0;
 }
 
 #contato{
-    margin: 20;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: #e1f5f7;
+}
 
+#contato div h2{
+    background-color: #e1f5f7;
 }
 
 h1{
