@@ -81,25 +81,26 @@ a:link{
 /*inicio CSS das sessões*/
 
 .box{
-    top:20%;
-    background:#fff;
-    padding-top: 50;
+    top:0%;
+    padding: 50px 0;
 }
 
 #home{
     margin-left: 20px;
     margin-right: 20px;
-    padding-top: 50px;
+    background-color: #e1f5f7;
 }
 
 #sobre{
     margin: 20;
-    border-radius: 5%;
-    background-color: #eee;
+    background-color: #e1f5f7;
+    padding: 0px 0;
 }
 
 #contato{
     margin: 20;
+    background-color: #e1f5f7;
+
 }
 
 h1{
@@ -125,4 +126,21 @@ h2{
 }
 footer p{
     float: left;  
+}
+
+footer ul{
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    float: right;
+}
+
+footer ul li{
+    border-right: solid 1 #255D7F;
+    display: inline;
+}
+
+footer ul li img{
+    width: 40px;
+    height: 40px;
 }
